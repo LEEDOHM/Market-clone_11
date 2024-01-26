@@ -1,0 +1,33 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eaeaea;
+  background-color: white;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-icons {
+  font-size: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 10px 0px 10px;
+  cursor: pointer;
+}
+.footer-icons__desc {
+  font-weight: bold;
+  transform: scale(0.8);
+  margin-top: 5px;
+}
+/* flex-direction: column; = 각자 컨텐츠랑 텍스트와 같은 것들이 위아래로 고정됨*/
+.footer-icons__img {
+  width: 30px;
+}
